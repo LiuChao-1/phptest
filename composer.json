@@ -1,7 +1,7 @@
 {
   "name": "lc-composer/test",
   "type": "project",
-  "version": "1.0.0",
+  "license": "MIT",
   "description": "test",
   "autoload": {
     "psr-4": {
