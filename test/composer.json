@@ -1,0 +1,21 @@
+{
+  "name": "composer/lc-test",
+  "type": "project",
+  "description": "lc-test",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  },
+  "repositories": [
+    {"type": "composer", "url": "http://192.168.80.50:31110/artifactory/api/composer/fufaquan-php-remote"},
+    {"packagist": false}
+  ],
+  "config": {
+    "secure-http" : false
+  },
+  "require": {
+    "php": ">=5.3.7",
+    "composer/test": "3.0.0"
+  }
+}
